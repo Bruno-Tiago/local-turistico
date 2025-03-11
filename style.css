@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #F5F4F0;
+    margin: 24px auto 24px;
+}
+
+#page img {
+    border-radius: 28px;
+    width: 100%;
+}
+
+#headline {
+    color: var(--text-headline);
+    font-weight: bold;
+    padding: 2em 0;   
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+#caption {
+
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin: 1em auto 2em;
+}
+
+#head {
+    border-bottom: #D9D9D9 0.8px solid;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0.8em 0;
+}
+
+h4 {
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 24px;
+    margin-bottom: 1.5em;
+    padding-bottom: 2em;
+    border-bottom: #D9D9D9 0.8px solid
+}
+
+#history {
+    color: #0C51A7;
+    font-weight: bold;
+    position: relative;
+}
+
+li::before {
+    content: '•'; /* Adiciona um marcador customizado */
+    position: absolute;
+    left: -20px; /* Ajusta a posição do marcador */
+    top: 0;
+    color: black;
+}
+
+#couples {
+    color: #591B98;
+    font-weight: bold;
+    position: relative;
+}
+
+#families {
+    color: #E5245E;
+    font-weight: bold;
+    position: relative;
+}
+
+#budget {
+    color: #E95E10;
+    font-weight: bold;
+    position: relative;
+}
+
+#description {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+footer {
+    color: var(--text-tertiary);
+    text-align: center;
+    padding: 2em 0;
+}
